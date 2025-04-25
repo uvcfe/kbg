@@ -8,6 +8,7 @@
 	vertical-align:baseline;
 	list-style:none;
 	line-height:1.5;
+	
 }
 html {
 	text-size-adjust:none;
@@ -77,4 +78,7 @@ a {
 	text-decoration:none;
 	position:relative;
 	cursor: pointer;
+}
+a:hover{
+	border-bottom: 2px solid red;
 }
