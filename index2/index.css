@@ -1,6 +1,6 @@
 
 header{
-    display: flex;
+    display: flex !important;
     gap: 20px;
     justify-content: space-between;
     align-items: center;
@@ -19,6 +19,17 @@ ul{
 }
 li{
     list-style: none;
+}
+/* button{
+    border-radius: 15px;
+    border: 2px solid #000;
+} */
+button > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
 }
 .mainslider{
     display: flex;

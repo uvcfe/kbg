@@ -35,8 +35,15 @@ button,input,label {
 	border-radius:0;
 	background:none;
 }
+button :hover{
+	background-color: #000;
+}
 button {
+	border-radius: 7px;
+	border: 2px solid #000;
 	cursor:pointer;
+	padding: 15px 10px;
+	width: auto;
 }
 u {
 	text-underline-position:under;
