@@ -35,7 +35,8 @@ button,input,label {
 	border-radius:0;
 	background:none;
 }
-button :hover{
+button:hover{
+	color: #fff;
 	background-color: #000;
 }
 button {
